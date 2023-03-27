@@ -7,10 +7,6 @@ body{margin:0;
     background-color:transparent;
 }
 
-a{
-text-decoration:none;
-color:inherit;
-}
 @font-face {font-family: Termfont; src:url("https://dl.dropboxusercontent.com/s/wxig8p8shjd1616/Linebeam.ttf")}
 @font-face {font-family: BrowseFont; src:url("https://dl.dropboxusercontent.com/s/an82g81p54by76w/Modenine-2OPd.ttf")}
 @font-face {font-family: Altfont; src:url("https://dl.dropboxusercontent.com//s/t5qb3qcrr44le86/BusMatrixCondensed-Condensed.ttf")}
