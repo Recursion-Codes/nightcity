@@ -1,18 +1,26 @@
+<head>
+<title>Night City Digital</title>
+
+</head>
 <link href="NCStyling.css" rel="stylesheet" />
 <style>
    
 body{
     background-color:black;
     margin:0;
-    }
+    cursor: url('cursor.png'), auto;
+}
     
 a{
 text-decoration:none;
 color:inherit;
 }
 
+a:-webkit-any-link {
+    cursor:url('pointer.png'), pointer; 
+}
 #logo2{
-    background-image:url(https://media.discordapp.net/attachments/946275070572118056/1089978080396845176/city.png);
+    background-image:url(city.png);
     background-size:contain;
     object-fit:cover;
     background-position:right;

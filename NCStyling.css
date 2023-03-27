@@ -6,12 +6,11 @@ body{margin:0;
 ::selection{
     background-color:transparent;
 }
-
-@font-face {font-family: Termfont; src:url("https://dl.dropboxusercontent.com/s/wxig8p8shjd1616/Linebeam.ttf")}
-@font-face {font-family: BrowseFont; src:url("https://dl.dropboxusercontent.com/s/an82g81p54by76w/Modenine-2OPd.ttf")}
-@font-face {font-family: Altfont; src:url("https://dl.dropboxusercontent.com//s/t5qb3qcrr44le86/BusMatrixCondensed-Condensed.ttf")}
+@font-face {font-family: Termfont; src:url("Linebeam.ttf")}
+@font-face {font-family: BrowseFont; src:url("Modenine.ttf")}
+@font-face {font-family: Altfont; src:url("BusMatrix.ttf")}
 #terminal{
-    background-image:url(https://media.discordapp.net/attachments/946275070572118056/1087510240695685150/39-393492_try-this-version-box-square-line-clipart_copy.png);
+    background-image:url(terminal.png);
     width:160vh;
     height:100vh;
     background-size:100% 100%;
@@ -96,7 +95,6 @@ body{margin:0;
     position:absolute;
     bottom:50%;
     margin-bottom:20vh;
-    opacity:.5vh;
     background-color:transparent;
     margin-right:-79.9vh;
 }
