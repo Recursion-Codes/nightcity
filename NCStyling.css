@@ -48,7 +48,7 @@ body{margin:0;
     height: 2px;
     width: 100%;
     z-index: 2147483649;
-    background: rgba(255, 255, 255, .4);
+    background: rgba(59, 255, 102, 0.4);
     opacity: 0.55;
     animation: scanline 6s linear infinite;
 }
