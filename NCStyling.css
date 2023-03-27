@@ -1,6 +1,9 @@
 <style>
 
 body{margin:0;
+    background-color:black;
+    cursor: url('cursor.png'), auto;
+    overflow:hidden;
 }
 
 ::selection{
@@ -130,6 +133,34 @@ body{margin:0;
 .navelement{
     border-bottom:solid .25vh #6bff77; 
 }
+a{
+    text-decoration:none;
+    color:inherit;
+    }
+    
+    a:-webkit-any-link {
+        cursor:url('pointer.png'), pointer; 
+    }
+    #logo2{
+        background-image:url(city.png);
+        background-size:contain;
+        object-fit:cover;
+        background-position:right;
+        background-repeat:no-repeat;
+        top:50%;
+        right:50%;
+        width:159.9vh;
+        height:22vh;
+        margin-top:-44vh;
+        margin-right:-63vh;
+        font-family:TermFont;
+        position:absolute;
+        color:#6bff77;
+        filter:blur(.2vh);
+        font-size:8vh;
+        text-align:center;
+        z-index:13;
+    }
 #logo2{
     
 }
