@@ -1,9 +1,6 @@
 <style>
-
 body{margin:0;
     background-color:black;
-    cursor: url('cursor.png'), auto;
-    overflow:hidden;
 }
 
 ::selection{
