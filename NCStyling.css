@@ -2,9 +2,8 @@
 body{margin:0;
     background-color:black;
 }
-
 ::selection{
-    background-color:transparent;
+background-color:#6bff77;
 }
 @font-face {font-family: Termfont; src:url("Linebeam.ttf")}
 @font-face {font-family: BrowseFont; src:url("Modenine.ttf")}
@@ -31,7 +30,6 @@ body{margin:0;
     right:50%;
     margin-bottom:-50vh;
     margin-right:-79.9vh;
-    pointer-events:none;
     position: absolute;
     overflow: hidden;
     z-index:11;
@@ -91,12 +89,11 @@ body{margin:0;
 
 #navigationbar{
     width:159.9vh;
-    height:10vh;
     position:absolute;
     bottom:50%;
     margin-bottom:20vh;
-    background-color:transparent;
     margin-right:-79.9vh;
+    pointer-events:none;
 }
 #logo{
     right:50%;
@@ -110,6 +107,7 @@ body{margin:0;
     filter:blur(.2vh);
     font-size:8vh;
     text-align:center;
+    pointer-events:none;
 }
 #navbar{
     font-family:TermFont;
@@ -126,9 +124,11 @@ body{margin:0;
     margin-left:-66vh;
     justify-content:center;
     justify-content: space-evenly;
+    pointer-events:none;
 }
 .navelement{
     border-bottom:solid .25vh #6bff77; 
+    pointer-events:auto;
 }
 a{
     text-decoration:none;
@@ -146,7 +146,7 @@ a{
         background-repeat:no-repeat;
         top:50%;
         right:50%;
-        width:159.9vh;
+        width:54vh;
         height:22vh;
         margin-top:-44vh;
         margin-right:-63vh;
@@ -160,5 +160,54 @@ a{
     }
 #logo2{
     
+}
+#contentcontainer{
+width:130vh;
+height:50vh;
+position:absolute;
+left:50%;
+bottom:50%;
+margin-bottom:-39vh;
+margin-left:-65vh;
+filter:blur(.1vh);
+overflow:hidden;
+pointer-events:auto;
+}
+.contentbox{
+position:relative;
+height:50vh;
+width:87vh;
+color:#4db856;
+display:inline-block;
+left:40vh;
+top:0vh;
+padding-left:3vh;
+font-family:Termfont;
+filter:blur(.1vh);
+overflow:hidden;
+}
+.sectionimage{
+position:absolute;
+left:0vh;
+top:0vh;
+width:40vh;
+height:50vh;
+top:50%;
+margin-top:-25vh;
+}
+.sectionimage>img{
+    background-position:center;
+    object-fit: fill;
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:40vh;
+    height:50vh;
+}
+h1{
+font-size:4vh;
+}
+p{
+font-size:3vh;
+font-family:BrowseFont;
 }
 </style>
