@@ -2,7 +2,7 @@ body{margin:0;
     background-color:black;
 }
 ::selection{
-    background-color:#6bff77;
+    background-color:#63ff70;
 }
 ::-webkit-scrollbar{
     width:0vh;
@@ -212,4 +212,21 @@ p{
     font-family:BrowseFont;
     display:inline;
     opacity:.9;
+}
+@keyframes condemned_blink_effect {
+    0% {
+    opacity: 0;
+    }
+    50% {
+    opacity: 0;
+    }
+    51% {
+    opacity: 1;
+    }
+    100% {
+    opacity: 1;
+    }
+   }
+blinking{
+    animation: 1.5s linear infinite condemned_blink_effect;
 }
