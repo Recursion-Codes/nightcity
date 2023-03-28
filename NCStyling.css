@@ -205,9 +205,11 @@ a:-webkit-any-link {
 }
 h1{
     font-size:4vh;
+    opacity:.8;
 }
 p{
     font-size:3vh;
     font-family:BrowseFont;
     display:inline;
+    opacity:.9;
 }
