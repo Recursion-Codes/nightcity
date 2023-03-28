@@ -7,9 +7,9 @@ body{margin:0;
 ::-webkit-scrollbar{
     width:0vh;
 }
-@font-face {font-family: Termfont; src:url("Linebeam.ttf")}
-@font-face {font-family: BrowseFont; src:url("Modenine.ttf")}
-@font-face {font-family: Altfont; src:url("BusMatrix.ttf")}
+@font-face {font-family: Termfont; src:url("fonts/Linebeam.ttf")}
+@font-face {font-family: BrowseFont; src:url("fonts/Modenine.ttf")}
+@font-face {font-family: Altfont; src:url("fonts/BusMatrix.ttf")}
 #terminal{
     background-image:url(terminal.png);
     width:160vh;
@@ -138,10 +138,10 @@ a{
 }
 
 a:-webkit-any-link {
-    cursor:url('pointer.png'), pointer; 
+    cursor:url('images/pointer.png'), pointer; 
 }
 #logo2{
-    background-image:url(city.png);
+    background-image:url('images/city.png');
     background-size:contain;
     object-fit:cover;
     background-position:right;
