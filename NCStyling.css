@@ -197,7 +197,7 @@ a:-webkit-any-link {
 }
 .sectionimage>img{
     background-position:center;
-    object-fit: fill;
+    object-fit: cover;
     background-size:cover;
     background-repeat:no-repeat;
     width:40vh;
