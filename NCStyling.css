@@ -11,7 +11,7 @@ body{margin:0;
 @font-face {font-family: BrowseFont; src:url("fonts/Modenine.ttf")}
 @font-face {font-family: Altfont; src:url("fonts/BusMatrix.ttf")}
 #terminal{
-    background-image:url(terminal.png);
+    background-image:url(images/terminal.png);
     width:160vh;
     height:100vh;
     background-size:100% 100%;
