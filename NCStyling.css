@@ -89,14 +89,6 @@ body{margin:0;
 }
 
 
-#navigationbar{
-    width:159.9vh;
-    position:absolute;
-    bottom:50%;
-    margin-bottom:20vh;
-    margin-right:-79.9vh;
-    pointer-events:none;
-}
 #logo{
     right:50%;
     margin-right:-49.9vh;
