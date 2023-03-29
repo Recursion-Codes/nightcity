@@ -8,5 +8,5 @@ currently suggested changes are once a week or once per session. Changes will ha
 on the raw html files as there is no back-end connectivity. Though it should be easily done as 
 there is not much complex code on the index page.
 <br><br>
-#To do List
-Node.js connections for player login and messages.
+# To do List
+<br>Node.js connections for player login and messages.
