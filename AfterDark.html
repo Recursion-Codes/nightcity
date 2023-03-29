@@ -7,8 +7,21 @@
     body{
         margin:0;
         background-color:black;
+        cursor: url('images/cursor.png'), auto;
     }
 </style>
 <body>
-
+<div class="scanlines"></div>
+<div id="terminal"></div>
+<div id="innershadow"></div>
+<div id="loginbox">
+<div id="welcome">Night City After Dark</div>
+<form action="/action_page.php" id="inputform">
+    <input type="text" id="username" style="margin-top:14vh;"></input>
+    <input type="text" id="password"></input>
+  </form> 
+</div>
+<audio id="keysound" src="audio/keysound1.wav"></audio>
+<audio id="keysound2" src="audio/keysound2.wav"></audio>
+<script src="afterdark.js"></script>
 </body>
