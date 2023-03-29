@@ -9,6 +9,7 @@ body{margin:0;
 }
 @font-face {font-family: Termfont; src:url("fonts/Linebeam.ttf")}
 @font-face {font-family: BrowseFont; src:url("fonts/Modenine.ttf")}
+
 #terminal{
     background-image:url(images/terminal.png);
     width:160vh;
@@ -108,7 +109,7 @@ height:6vh;
 position:absolute;
 left:50%;
 top:50%;
-margin-left:-19vh;
+margin-left:-64vh;
 margin-top:-39vh;
 z-index:1;
 filter:blur(.2vh);
