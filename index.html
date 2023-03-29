@@ -11,7 +11,8 @@
     }
     
 </style>
-<body onload="refreshpagetimer()"">
+<body>
+    <div id="darkness" onclick="startterm()"></div>
     <div id="terminal"></div>
     <div class="scanlines"></div>
     <div id="innershadow"></div>
@@ -113,4 +114,8 @@
             </p>
         </div>
     </div>
+    <script src="functionality.js"></script>
+    <audio id="hum" src="audio/hum.wav" loop autoloop>
+    <audio id="powerswitch" src="audio/power.mp3" >
+    <audio id="keypress" src="audio/snap2.mp3" >
 </body>
