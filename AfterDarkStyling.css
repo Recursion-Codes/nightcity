@@ -1,0 +1,10 @@
+@font-face {font-family: Termfont; src:url("fonts/Linebeam.ttf")}
+@font-face {font-family: BrowseFont; src:url("fonts/Modenine.ttf")}
+
+#loginform{
+position:absolute;
+width:80vh;
+height:40vh;
+left:50%;
+top:50%;
+}

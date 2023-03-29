@@ -9,7 +9,6 @@ body{margin:0;
 }
 @font-face {font-family: Termfont; src:url("fonts/Linebeam.ttf")}
 @font-face {font-family: BrowseFont; src:url("fonts/Modenine.ttf")}
-@font-face {font-family: Altfont; src:url("fonts/BusMatrix.ttf")}
 #terminal{
     background-image:url(images/terminal.png);
     width:160vh;
@@ -91,8 +90,8 @@ body{margin:0;
 
 #logo{
     right:50%;
-    margin-right:-51vh;
-    width:159.9vh;
+    margin-right:-47vh;
+    width:149.9vh;
     font-family:TermFont;
     position:absolute;
     top:50%;
@@ -107,7 +106,7 @@ body{margin:0;
     font-family:TermFont;
     position:absolute;
     top:50%;
-    margin-top:-19vh;
+    margin-top:-17vh;
     left:50%;
     margin-left:-66vh;
     color:#6bff77;
@@ -235,7 +234,6 @@ cursor:url('images/pointer.png'),pointer;
 #newsbar{
 width:72vh;
 height:6vh;
-background-color:rgba(107, 255, 139, 0.267);
 position:absolute;
 left:50%;
 top:50%;
@@ -243,9 +241,7 @@ margin-left:-65vh;
 margin-top:-28vh;
 z-index:1;
 filter:blur(.2vh);
-}
-marquee{
-font-size:6vh;
+color:#6bff77;
 font-family:termfont;
-color:#4db856;
+font-size:4vh;
 }
