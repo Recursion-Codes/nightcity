@@ -10,7 +10,7 @@ function playclick(){
 
 function startterm(){
 powerswitch.volume= "0.1";
-hum.volume= "0.1";
+hum.volume= "0.075";
 darkness.style.opacity = "0";
 darkness.style.pointerEvents = "none";
 powerswitch.play();
