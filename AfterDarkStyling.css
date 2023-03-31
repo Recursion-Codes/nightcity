@@ -316,6 +316,7 @@ smallemailheading{
 	height:4vh;
 	filter:blur(.1vh);
 	border-radius:1vh;
+	cursor:url('images/select.png'), pointer; 
 	box-shadow: 0vh 0vh 1vh #214b25, 0vh 0vh 1vh #214b25;
 	}
 	input::placeholder{
