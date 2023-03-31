@@ -332,3 +332,7 @@ smallemailheading{
 visibility:hidden;
 
 }
+
+a:-webkit-any-link {
+    cursor:url('images/pointer.png'), pointer; 
+}
