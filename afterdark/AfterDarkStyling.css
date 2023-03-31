@@ -240,7 +240,6 @@
 	padding-left:2vh;
 	padding-top:2vh;
 	transition:.25s;
-	cursor:pointer;
 	white-space: nowrap; 
 	overflow: hidden;
 	text-overflow: ellipsis; 
