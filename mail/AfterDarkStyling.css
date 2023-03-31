@@ -1,6 +1,6 @@
 
-@font-face { font-family: datafont; src: url(fonts/Modenine.ttf) }
-@font-face { font-family: datafont2; src: url(fonts/Linebeam.ttf) }
+@font-face { font-family: datafont; src: url(../fonts/Modenine.ttf) }
+@font-face { font-family: datafont2; src: url(../fonts/Linebeam.ttf) }
 
 .scanlines {
 	pointer-events: none; 
@@ -53,7 +53,7 @@
 
 
 #terminal{
-	background-image:url(images/terminal.png);
+	background-image:url(../images/terminal.png);
 	width:160vh;
 	height:100vh;
 	background-size:100% 100%;
@@ -146,7 +146,7 @@
 	z-index:1;
 }
 #logo2{
-	background-image:url('images/city.png');
+	background-image:url('../images/city.png');
 	background-size:contain;
 	object-fit:cover;
 	background-position:right;
@@ -290,7 +290,7 @@ smallemailheading{
 	font-size:4vh;filter:blur(.2vh);
 	}
 	a:-webkit-any-link {
-		cursor:url('images/pointer.png'), pointer; 
+		cursor:url('../images/pointer.png'), pointer; 
 	}
 	form{
 	width:100%;
@@ -316,7 +316,7 @@ smallemailheading{
 	height:4vh;
 	filter:blur(.1vh);
 	border-radius:1vh;
-	cursor:url('images/select.png'), pointer; 
+	cursor:url('../images/select.png'), pointer; 
 	box-shadow: 0vh 0vh 1vh #214b25, 0vh 0vh 1vh #214b25;
 	}
 	input::placeholder{
@@ -335,5 +335,5 @@ visibility:hidden;
 }
 
 a:-webkit-any-link {
-    cursor:url('images/pointer.png'), pointer; 
+    cursor:url('../images/pointer.png'), pointer; 
 }
