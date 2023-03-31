@@ -9,7 +9,7 @@
         margin:0;
         font-family:datafont;
         overflow:hidden;
-        cursor: url('images/cursor.png'), auto;
+        cursor: url('../images/cursor.png'), auto;
     }
 </style>
 <body>
@@ -77,7 +77,7 @@
     
     function pushEmailFunction(loggedInUser){
     // Public IP with port, function as defined in server.js
-        axios.get("ec2-3-83-142-157.compute-1.amazonaws.com/getEmails").then((res) => { 
+        axios.get("3.83.142.157").then((res) => { 
             data = res.data
              //Put newest email to front (Needs implementation).
              var defaultemail = data.length-1;
@@ -144,7 +144,7 @@ function parseinput(usernamestring, passwordstring){
     //Resetting login form
     username.value="";
     password.value="";
-    axios.post("ec2-3-83-142-157.compute-1.amazonaws.com/login", loginData).then((res) => {
+    axios.post("3.83.142.157", loginData).then((res) => {
           console.log(res);
           console.log(res.data);
           if (res.data.success == true) { 
