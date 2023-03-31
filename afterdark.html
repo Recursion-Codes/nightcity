@@ -77,7 +77,7 @@
     
     function pushEmailFunction(loggedInUser){
     // Public IP with port, function as defined in server.js
-        axios.get("http://98.148.80.97:5001/getEmails").then((res) => { 
+        axios.get("ec2-3-83-142-157.compute-1.amazonaws.com/getEmails").then((res) => { 
             data = res.data
              //Put newest email to front (Needs implementation).
              var defaultemail = data.length-1;
@@ -144,7 +144,7 @@ function parseinput(usernamestring, passwordstring){
     //Resetting login form
     username.value="";
     password.value="";
-    axios.post("http://98.148.80.97:5001/login", loginData).then((res) => {
+    axios.post("ec2-3-83-142-157.compute-1.amazonaws.com/login", loginData).then((res) => {
           console.log(res);
           console.log(res.data);
           if (res.data.success == true) { 
